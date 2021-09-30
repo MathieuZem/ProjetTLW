@@ -4,28 +4,52 @@ body {
 margin: 0%;
 }
 
-
-.titre {
-margin: 0%;
-
-color: white;
-font-family: "DIN Next LT Pro Regular";
-src: url("../fonts/DIN.ttf");
-font-size: 350%;
-padding-left: 5%;
-
-background-color: #333132;
-width: 100%
-
+/*
+<style type="text/css"> 
+a:link 
+{ 
+ text-decoration:none; 
 } 
+</style> */
+
+@font-face {
+    font-family: "DIN";
+    src: url("../fonts/DIN.ttf") format("TrueType");
+}
+.BarreTopPage {
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+}
+
 
 div#logo {
     background-image: url(../image/autre/DOOR-ITOS.svg);
     background-repeat: no-repeat;
-    width: 200px;
     height: 200px;
     padding: 0;
+    background-color: #333132;
+    grid-column: 1;
+    grid-row: 1;
 }
+
+
+.titre {
+    margin: 0%;
+
+    color: white;
+    font-family: "DIN";
+    font-size: 350%;
+    padding-left: 5%;
+
+    background-color: #333132;
+    width: 100%;
+
+    grid-column: 2;
+    grid-row: 1;
+} 
+
 
 
 
@@ -42,12 +66,14 @@ div#bgimg {
 .navbar {
 
     background-color: #333132;
+    grid-column: 3;
+    grid-row: 1;
 }
 
 .textNB {
-
+    font-family: "DIN";
     color: white;
-
+    text-decoration:none; 
 
 }
 
