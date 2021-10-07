@@ -8,7 +8,7 @@ margin: 0%;
 <style type="text/css"> 
 a:link 
 { 
- text-decoration:none; 
+text-decoration:none; 
 } 
 </style> */
 
@@ -17,23 +17,18 @@ a:link
     src: url("../fonts/DIN.ttf") format("TrueType");
 }
 .BarreTopPage {
-    display: grid;
-    width: 100%;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-color: #333132;
 }
 
 
 div#logo {
-    background-image: url(../image/autre/DOOR-ITOS.svg);
-    background-repeat: no-repeat;
-    height: 200px;
-    padding: 0;
+    width: 30%;
     background-color: #333132;
-    grid-column: 1;
-    grid-row: 1;
 }
-
 
 .titre {
     margin: 0%;
@@ -41,13 +36,12 @@ div#logo {
     color: white;
     font-family: "DIN";
     font-size: 350%;
-    padding-left: 5%;
 
     background-color: #333132;
     width: 100%;
 
-    grid-column: 2;
-    grid-row: 1;
+    text-align: center;
+    padding-left: 20px;
 } 
 
 
@@ -66,15 +60,18 @@ div#bgimg {
 .navbar {
 
     background-color: #333132;
-    grid-column: 3;
-    grid-row: 1;
-    
+    display: flex;
+    justify-content: stretch;
+    flex-direction: row;
 }
 
 .textNB {
     font-family: "DIN";
     color: white;
     text-decoration:none; 
+    font-size: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
 
 }
 
