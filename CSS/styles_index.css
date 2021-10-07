@@ -68,6 +68,7 @@ div#bgimg {
 
 .textNB:hover{
     color: #F57E00;
+    text-decoration-line: overline #555555;
 }
 
 .textNB {
@@ -81,12 +82,37 @@ div#bgimg {
 }
 
 
+.footer{
+    background-color: #333132;
+
+}
 
 
+.textlienF{
+    font-family: "DIN";
+    color: white;
+    text-decoration:none;
+    text-decoration-line: underline;
 
+}
+.textlienF:hover{
+    color: #F57E00;
+}
 
+.textBasicF {
+color: white;
+}
 
+.TitreFooter {
+    margin: 0%;
 
+    color: white;
+    font-family: "DIN";
+    font-size: 350%;
+
+    background-color: #333132;
+    width: 100%;
+}
 
 
 
