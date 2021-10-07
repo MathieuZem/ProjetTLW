@@ -4,26 +4,14 @@
         <meta charset="UTF-8">
         <title>Accueil</title>
         <link rel="stylesheet" href="../CSS/styles_index.css">
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     </head>
 
 
     <body>
 
         <header>
-            <div class=BarreTopPage>
-                <div id="logo"> 
-                    <img src="../image/autre/DOOR-ITOS.svg">
-                </div>
-
-                <h1 class="titre">Door-Itos</h1>
-                <nav class="navbar">
-                    <a class="textNB" href="index.html">Accueil</a>
-                    <a class="textNB" href="Support&Contact.html">Support&Contact</a>
-                    <a class="textNB" href="Panier.html">Panier</a>
-                    <a class="textNB" href="Connexion.html">Connexion</a>
-                </nav>
-            </div>
-            
+            <div id="nav"></div>
             <div id="bgimg"> </div>
         </header>
 
@@ -56,29 +44,9 @@
 
         </section>
 
-        <footer class="footer">
-            <h1 class="TitreFooter">Door-Itos</h1>
-            
-            <dl>
-                <dt class="textBasicF">Abonnez vous pour ne louper aucunes nouvelles !</dt>
-                <dd><a class="textlienF" href="#">Newsletter</a></dd>
-        
-                <dt class="textBasicF">Si l'envie vous prend !</dt>
-                <dd> <a class="textlienF" href="Support&Contact.html">Nous contacter</a></dd>
-        
-                <dt class="textBasicF">Rejoignez nous sur les réseaux</dt>
-                <dd>
-                    <ul>
-                        <li><a class="textlienF" href="#">Instagram</a></li>
-                        <li><a class="textlienF" href="#">Facebook</a></li>     
-                        <li><a class="textlienF" href="#">LinkedIn</a></li>        
-                    </ul>
-                </dd>
-            </dl>
-        
-        </footer>
+        <footer class="footer" id=basdepage></footer>
+        <script src="../JS/appel-nav-basdepage.js"></script>
+
     </body>
 
-
-
-</html>
+    </html>
