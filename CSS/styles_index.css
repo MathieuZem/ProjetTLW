@@ -25,7 +25,7 @@ text-decoration:none;
 }
 
 
-div#logo {
+.logo {
     width: 30%;
     background-color: #333132;
 }
@@ -128,12 +128,12 @@ color: white;
 
 
 }
-
+/*
 .divIMG {
 
     background-color: #333132;
 }
-
+*/
 
 
 
