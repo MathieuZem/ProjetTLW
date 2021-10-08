@@ -2,30 +2,32 @@
     <html lang="fr">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Accueil</title>
         <link rel="stylesheet" href="../CSS/styles_index.css">
         <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     </head>
 
 
-    <body>
+    <body id=body>
 
         <header>
             <div id="nav"></div>
-            <div id="bgimg"> </div>
+            <img id="bgimg" src="../image/autre/Banniere.jpg" alt="Bannière"/>
+            
         </header>
 
-        <section>
-            <p>Filtres :</p>
+        <div class="BarreDeFiltre">
+            <p class="filtre">Filtres :</p>
             <nav>
-                <select name="Matériaux">
+                <select class="lesfiltres" name="Matériaux">
                     <option value="Tout">Tout</option>
                     <option value="Bois">Bois</option>
                     <option value="Métal">Metal</option>
                     <option value="Polymère">polymère</option>
                 </select>
                     
-                <select name="Type">
+                <select class="lesfiltres" name="Type">
                     <option value="Tout">Tout</option>
                     <option value="Classique">Classique</option>
                     <option value="Blindé">Blindé</option>
@@ -36,42 +38,48 @@
                     <option value="Rouleau">Rouleau</option>
                 </select>
 
-                <input type="checkbox" id="Premium" name="Premium" >
-                <label for="Premium">Premium</label>
+                <input class="lesfiltres" type="checkbox" id="Premium" name="Premium" >
+                <label class="filtre" for="Premium">Premium</label>
             </nav>
-        </section>
+        </div>
 
-        <section class="SectionGrid">
-            <div class="div">
+        <div class="SectionGrid">
+            <div>
                 <a href="../HTML/Personnalisation.html"> 
-                    <img src="../image/Porte Doritos/porte-dooritos2.png" alt="Porte Doritos"/>
+                    <img class="divIMG" src="../image/Porte Doritos/porte-dooritos2.png" alt="Porte Doritos"/>
                 </a>
             </div>
 
 
-            <div class="divIMG">
+            <div>
                 <a href="../HTML/Personnalisation.html">
-                    <img src="../image/Porte Classique/porte-classique2.png" alt="Porte Classique"/>
+                    <img class="divIMG" src="../image/Porte Classique/porte-classique2.png" alt="Porte Classique"/>
                 </a>
             </div>
 
 
-            <div class="divIMG">
+            <div>
                 <a href="../HTML/Personnalisation.html"> 
-                    <img src="../image/Porte Coulissante/porte-coulissante2.png" alt="Porte Coulissante"/>
+                    <img class="divIMG" src="../image/Porte Coulissante/porte-coulissante2.png" alt="Porte Coulissante"/>
                 </a>
             </div>
 
 
-            <div class="divIMG">
+            <div>
                 <a href="../HTML/Personnalisation.html"> 
-                    <img src="../image/Porte Blinde/porte-blinde2.png" alt="Porte Blinde"/>
+                    <img class="divIMG" src="../image/Porte Blinde/porte-blinde2.png" alt="Porte Blinde"/>
                 </a>
             </div>
             
-            <div class="divIMG">
+            <div>
                 <a href="../HTML/Personnalisation.html"> 
-                    <img src="../image/Porte Fenêtre/porte-fenetre2.png" alt="Porte Fenêtre"/>
+                    <img class="divIMG" src="../image/Porte Fenêtre/porte-fenetre2.png" alt="Porte Fenêtre"/>
+                </a>
+            </div>
+
+            <div>
+                <a href="../HTML/Personnalisation.html"> 
+                    <img class="divIMG" src="../image/Porte de Garage/porte-de-garage2.png" alt="Porte de Garage"/> 
                 </a>
             </div>
 
@@ -84,14 +92,10 @@
             </div>
 -->
 
-            <div class="divIMG">
-                <a href="../HTML/Personnalisation.html"> 
-                    <img src="../image/Porte de Garage/porte-de-garage2.png" alt="Porte de Garage"/> 
-                </a>
-            </div>
 
 
-        </section>
+
+</div>
 
 
 

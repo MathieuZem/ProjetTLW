@@ -1,0 +1,1 @@
+var bgimg = window.innerWidth;

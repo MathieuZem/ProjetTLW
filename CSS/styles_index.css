@@ -12,6 +12,12 @@ text-decoration:none;
 } 
 </style> */
 
+@viewport {
+    width: device-width; /* largeur du viewport */
+    zoom: 1; /* zoom initial à 1.0 (et clin d'oeil aux fans d'IE6/7) */
+    user-zoom: yes;
+ }
+
 @font-face {
     font-family: "DIN";
     src: url("../fonts/DIN.ttf") format("TrueType");
@@ -24,10 +30,19 @@ text-decoration:none;
     background-color: #333132;
 }
 
+.box {
+    height :1vh ;
+    width: 99.65vw;
+    background : #F57E00 ;
+    }
+
+
+
+
 
 .logo {
-    width: 30%;
-    background-color: #333132;
+    
+    height: 20vh;
 }
 
 .titre {
@@ -48,12 +63,19 @@ text-decoration:none;
 
 
 
-div#bgimg {
-    background-image: url(../image/autre/Banniere.jpg);
+img#bgimg {
+    /*background-image: url(../image/autre/Banniere.jpg);*/
     background-repeat: no-repeat;
-    width: 100%;
     height: 377px;
 }
+
+
+body#body {
+
+    background-color: #333132;
+
+}
+
 
 
 
@@ -69,7 +91,23 @@ div#bgimg {
 .textNB:hover{
     color: #F57E00;
     text-decoration-line: overline #555555;
+    background-color: #555555;
 }
+
+
+.filtre {
+    color: black;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.lesfiltres {
+    font-size: 30px;
+
+}
+
+
 
 .textNB {
     font-family: "DIN";
@@ -89,6 +127,16 @@ div#bgimg {
     
 }
 
+.BarreDeFiltre {
+background-color: #CCCCCC;
+margin-top: -1%;
+    
+
+}
+
+
+
+
 .footer{
     background-color: #333132;
 }
@@ -99,6 +147,7 @@ div#bgimg {
     color: white;
     text-decoration:none;
     text-decoration-line: underline;
+    font-size: 22px;
 
 }
 .textlienF:hover{
@@ -106,7 +155,10 @@ div#bgimg {
 }
 
 .textBasicF {
-color: white;
+    color: white;
+    font-size: 22px;
+
+
 }
 
 .TitreFooter {
@@ -122,9 +174,14 @@ color: white;
 
 .SectionGrid{
     display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto auto;
-    
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: auto auto auto;
+    margin-top: 5em;
+}
+
+.test {
+margin-top: 5em;
+background-color: #333132;
 
 
 }
