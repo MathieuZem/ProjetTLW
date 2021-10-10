@@ -207,3 +207,108 @@ background-color: #333132;
 
 <img src="image/Banniere.jpg" alt="bannière" /> 
 */
+
+.MenuPerso {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #CCCCCC;
+    height: 70vh;
+    width: 100vw;
+
+}
+
+
+
+.Cadreimage {
+    background-color: #222222;
+    max-width: 74.8vh;
+    max-height: 45vw;
+    height: 74.8vh;
+    width: 45vw;
+    margin-right: 2vw;
+
+
+}
+
+.CadrePersonnalisation {
+    background-color: #333333;
+    max-width: 74.8vh;
+    max-height: 45vw;
+    height: 74.8vh;
+    width: 45vw;
+    margin-left: 2vw;
+
+}
+
+
+.topcadre {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #555555;
+    height: 4.5vh;
+
+
+}
+
+
+.titrepara {
+    color: white;
+    margin-top: 0px;
+    font-family: "DIN";
+    font-size: 30px;
+    padding-left: 2vw;
+    padding-top: 1.5vh;
+
+}
+/*
+.d2part {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #AAAAAA;
+    height: 4.5vh;
+    border-bottom: 0.1vh;
+}
+*/
+.d2part {
+    display: flex;
+    flex-shrink: 0;
+    flex-flow: row nowrap;
+    background-color: #AAAAAA;
+    height: 4.5vh;
+    border: 0.1vh solid rgb(234, 234, 234);
+}
+
+h3#nomPerso {
+    order: 1;
+    justify-self: start; 
+    color: white;
+    font-family: "DIN";
+    font-size: 20px;
+    
+
+}
+
+
+.Bprevious {
+    order: 2;
+    cursor: pointer;
+    padding-right: 1vw;
+    padding-left: 1vw;
+
+}
+
+.Bnext {
+    cursor: pointer;
+    order: 3;
+    padding-right: 1vw;
+    padding-left: 1vw;
+}
+
+
+
+
