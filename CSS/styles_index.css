@@ -208,13 +208,20 @@ background-color: #333132;
 <img src="image/Banniere.jpg" alt="bannière" /> 
 */
 
+.titrePerso {
+    color: black;
+    font-family: "DIN";
+    font-size: 50px;
+
+}
+
 .MenuPerso {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     background-color: #CCCCCC;
-    height: 70vh;
+    height: 80vh;
     width: 100vw;
 
 }
@@ -310,5 +317,16 @@ h3#nomPerso {
 }
 
 
+
+
+
+
+
+
+
+.commander {
+    text-align: center;
+
+}
 
 
