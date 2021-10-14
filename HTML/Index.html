@@ -12,8 +12,13 @@
     <body id=body>
 
         <header>
+            <div class="bgimg2">
+                <h1 class="titre2">Door-Itos</h1>
+
+            </div>
+
+            <!-- <img id="bgimg" src="../image/autre/Banniere.jpg" alt="Bannière"/> -->
             <div id="nav"></div>
-            <img id="bgimg" src="../image/autre/Banniere.jpg" alt="Bannière"/>
             
         </header>
 
@@ -43,59 +48,17 @@
             </nav>
         </div>
 
-        <div class="SectionGrid">
-            <div>
-                <a href="../HTML/Personnalisation.html"> 
-                    <img class="divIMG" src="../image/Porte Doritos/porte-dooritos2.png" alt="Porte Doritos"/>
-                </a>
-            </div>
+            <template id="gamme">
+                <div class="SectionGrid">
+                    <a href={{LienPagePerso}}> 
+                        <img class="divIMG" src={{LienIMG}} alt={{alt}}/>
+                    </a>
+                    <p class="Prix">{{Prix}}</p>
+                </div>
+            </template>
 
 
-            <div>
-                <a href="../HTML/Personnalisation.html">
-                    <img class="divIMG" src="../image/Porte Classique/porte-classique2.png" alt="Porte Classique"/>
-                </a>
-            </div>
-
-
-            <div>
-                <a href="../HTML/Personnalisation.html"> 
-                    <img class="divIMG" src="../image/Porte Coulissante/porte-coulissante2.png" alt="Porte Coulissante"/>
-                </a>
-            </div>
-
-
-            <div>
-                <a href="../HTML/Personnalisation.html"> 
-                    <img class="divIMG" src="../image/Porte Blinde/porte-blinde2.png" alt="Porte Blinde"/>
-                </a>
-            </div>
-            
-            <div>
-                <a href="../HTML/Personnalisation.html"> 
-                    <img class="divIMG" src="../image/Porte Fenêtre/porte-fenetre2.png" alt="Porte Fenêtre"/>
-                </a>
-            </div>
-
-            <div>
-                <a href="../HTML/Personnalisation.html"> 
-                    <img class="divIMG" src="../image/Porte de Garage/porte-de-garage2.png" alt="Porte de Garage"/> 
-                </a>
-            </div>
-
-<!--
-            <div class="divIMG">
-
-                <a href="../HTML/Personnalisation.html"> 
-                    <img src="../image/Porte Coupe-Feu/porte-coupe-feu.jpg" alt="Porte Coupe-Feu"/> 
-                </a>
-            </div>
--->
-
-
-
-
-</div>
+        </div>
 
 
 
@@ -103,6 +66,7 @@
 
 
         <footer class="footer" id=basdepage></footer>
+        <script src="../JS/Template-Gamme.js"></script>
         <script src="../JS/appel-nav-basdepage.js"></script>
 
     </body>

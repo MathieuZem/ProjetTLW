@@ -24,7 +24,7 @@ text-decoration:none;
 }
 .BarreTopPage {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: row;
     align-items: center;
     background-color: #333132;
@@ -33,16 +33,41 @@ text-decoration:none;
 .box {
     height :1vh ;
     width: 99.65vw;
-    background : #F57E00 ;
+    background : #F57E00;
+    margin-bottom: 0%;
     }
 
+
+.bgimg2 {
+    background-image: url("../image/autre/Banniere.jpg");
+    background-size: cover;
+    position: relative;
+    height: 300px;
+
+}
+
+.titre2 {
+    background-color: black;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-size: 5em;
+    font-family: "DIN";
+    margin: -38vh 30vw;
+    padding: 1vh;
+    width: 40vw;
+    text-align: center;
+    position: absolute;
+    top: 50vh;
+
+
+}
 
 
 
 
 .logo {
     
-    height: 20vh;
+    height: 12vh;
 }
 
 .titre {
@@ -76,15 +101,13 @@ body#body {
 
 }
 
-
-
-
 .navbar {
 
     background-color: #333132;
     display: flex;
     justify-content: stretch;
     flex-direction: row;
+    margin-left: 16vw;
 }
 
 
@@ -97,13 +120,13 @@ body#body {
 
 .filtre {
     color: black;
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 
 .lesfiltres {
-    font-size: 30px;
+    font-size: 20px;
 
 }
 
@@ -113,7 +136,7 @@ body#body {
     font-family: "DIN";
     color: white;
     text-decoration:none; 
-    font-size: 30px;
+    font-size: 20px;
     padding-left: 80px;
     padding-right: 80px;
 
@@ -128,8 +151,7 @@ body#body {
 }
 
 .BarreDeFiltre {
-background-color: #CCCCCC;
-margin-top: -1%;
+    background-color: #CCCCCC;
     
 
 }
@@ -142,7 +164,7 @@ margin-top: -1%;
 }
 
 
-.textlienF{
+.textlienF{150
     font-family: "DIN";
     color: white;
     text-decoration:none;
@@ -165,10 +187,7 @@ margin-top: -1%;
     margin: 0%;
 
     color: white;
-    font-family: "DIN";
-    font-size: 350%;
-
-    background-color: #333132;
+    font-family: "DIN";1503132;
     width: 100%;
 }
 
@@ -185,12 +204,25 @@ background-color: #333132;
 
 
 }
-/*
-.divIMG {
 
-    background-color: #333132;
+.GridPlacement {
+
+
 }
-*/
+
+.Prix {
+    color: white;
+    margin-top: 2vh;
+    margin-bottom: 10vh;
+    margin-left: 13vw;
+    font-family: "DIN";
+    font-size: 25px;
+}
+
+.divIMG {
+    padding-left: 5.3vw;
+    height: 50%;
+}
 
 
 
@@ -255,7 +287,6 @@ background-color: #333132;
     flex-direction: row;
     align-items: center;
     background-color: #555555;
-    height: 4.5vh;
 
 
 }
@@ -286,7 +317,6 @@ background-color: #333132;
     flex-shrink: 0;
     flex-flow: row nowrap;
     background-color: #AAAAAA;
-    height: 4.5vh;
     border: 0.1vh solid rgb(234, 234, 234);
 }
 
