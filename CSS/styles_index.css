@@ -33,7 +33,7 @@ text-decoration:none;
 
 .box {
     height :1vh ;
-    width: 99.65vw;
+    width: 100%;
     background : #F57E00;
     margin-bottom: 0%;
     }
@@ -44,7 +44,6 @@ text-decoration:none;
     background-size: cover;
     position: relative;
     height: 300px;
-
 }
 
 .titre2 {
@@ -53,22 +52,15 @@ text-decoration:none;
     color: white;
     font-size: 5em;
     font-family: "DIN";
-    margin: -38vh 30vw;
-    padding: 1vh;
-    width: 40vw;
+    padding: 1%;
+    width: 40%;
     text-align: center;
     position: absolute;
-    top: 50vh;
-
-
+    margin-left: 27%;
 }
 
-
-
-
-.logo {
-    
-    height: 12vh;
+.logo {  
+    width: 50%;
 }
 
 .titre {
@@ -85,12 +77,6 @@ text-decoration:none;
     padding-left: 20px;
 } 
 
-img#bgimg {
-    /*background-image: url(../image/autre/Banniere.jpg);*/
-    background-repeat: no-repeat;
-    height: 377px;
-}
-
 body#body {
     background-color: #333132;
 }
@@ -100,7 +86,16 @@ body#body {
     display: flex;
     justify-content: stretch;
     flex-direction: row;
-    margin-left: 16vw;
+    margin-left: 25%;
+}
+
+.textNB {
+    font-family: "DIN";
+    color: white;
+    text-decoration:none; 
+    font-size: 150%;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 .textNB:hover{
@@ -120,20 +115,13 @@ body#body {
 
 }
 
-.textNB {
-    font-family: "DIN";
-    color: white;
-    text-decoration:none; 
-    font-size: 20px;
-    padding-left: 80px;
-    padding-right: 80px;
-}
+
 
 .BarreDeFiltre {
     background-color: #CCCCCC;
-    
-
+    padding: 1%;
 }
+
 
 #basdepage{
     background-color: #333132;
@@ -176,22 +164,18 @@ body#body {
     background-color: #333132;
 }
 
-.GridPlacement {
-
-
-}
-
 .Prix {
     color: white;
-    margin-top: 2vh;
-    margin-bottom: 10vh;
-    margin-left: 13vw;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-left: 55%;
     font-family: "DIN";
     font-size: 25px;
 }
 
 .divIMG {
-    padding-left: 5.3vw;
+    margin-left: 33.33%;
+    margin-right: 33.33%;
     height: 50%;
 }
 
@@ -202,7 +186,7 @@ body#body {
 
 
 
-
+/*
 .bg-image--1 { ..image/autre/Banniere.jpg" alt="bannière"; }
 
 <img src="image/Banniere.jpg" alt="bannière" />
