@@ -16,12 +16,13 @@ text-decoration:none;
     width: device-width; /* largeur du viewport */
     zoom: 1; /* zoom initial à 1.0 (et clin d'oeil aux fans d'IE6/7) */
     user-zoom: yes;
- }
+}
 
 @font-face {
     font-family: "DIN";
     src: url("../fonts/DIN.ttf") format("TrueType");
 }
+
 .BarreTopPage {
     display: flex;
     justify-content: flex-start;
@@ -84,25 +85,17 @@ text-decoration:none;
     padding-left: 20px;
 } 
 
-
-
-
-
 img#bgimg {
     /*background-image: url(../image/autre/Banniere.jpg);*/
     background-repeat: no-repeat;
     height: 377px;
 }
 
-
 body#body {
-
     background-color: #333132;
-
 }
 
 .navbar {
-
     background-color: #333132;
     display: flex;
     justify-content: stretch;
@@ -110,27 +103,22 @@ body#body {
     margin-left: 16vw;
 }
 
-
 .textNB:hover{
     color: #F57E00;
     text-decoration-line: overline #555555;
     background-color: #555555;
 }
 
-
 .filtre {
     color: black;
     font-size: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
 }
 
 .lesfiltres {
     font-size: 20px;
 
 }
-
-
 
 .textNB {
     font-family: "DIN";
@@ -139,15 +127,6 @@ body#body {
     font-size: 20px;
     padding-left: 80px;
     padding-right: 80px;
-
-}
-
-.RemonterEnHaut {
-    position: fixed;
-    bottom: 10px;
-    right: -100px;
-    opacity: 0.5;
-    
 }
 
 .BarreDeFiltre {
@@ -156,22 +135,18 @@ body#body {
 
 }
 
-
-
-
-.footer{
+#basdepage{
     background-color: #333132;
 }
 
-
-.textlienF{150
+.textlienF{
     font-family: "DIN";
     color: white;
     text-decoration:none;
     text-decoration-line: underline;
     font-size: 22px;
-
 }
+
 .textlienF:hover{
     color: #F57E00;
 }
@@ -179,15 +154,13 @@ body#body {
 .textBasicF {
     color: white;
     font-size: 22px;
-
-
 }
 
 .TitreFooter {
     margin: 0%;
 
     color: white;
-    font-family: "DIN";1503132;
+    font-family: "DIN";
     width: 100%;
 }
 
@@ -199,10 +172,8 @@ body#body {
 }
 
 .test {
-margin-top: 5em;
-background-color: #333132;
-
-
+    margin-top: 5em;
+    background-color: #333132;
 }
 
 .GridPlacement {
@@ -232,8 +203,7 @@ background-color: #333132;
 
 
 
-
-/* .bg-image--1 { ..image/autre/Banniere.jpg" alt="bannière"; }
+.bg-image--1 { ..image/autre/Banniere.jpg" alt="bannière"; }
 
 <img src="image/Banniere.jpg" alt="bannière" />
 
@@ -244,7 +214,6 @@ background-color: #333132;
     color: black;
     font-family: "DIN";
     font-size: 50px;
-
 }
 
 .MenuPerso {
@@ -255,10 +224,7 @@ background-color: #333132;
     background-color: #CCCCCC;
     height: 80vh;
     width: 100vw;
-
 }
-
-
 
 .Cadreimage {
     background-color: #222222;
@@ -267,8 +233,6 @@ background-color: #333132;
     height: 74.8vh;
     width: 45vw;
     margin-right: 2vw;
-
-
 }
 
 .CadrePersonnalisation {
@@ -278,9 +242,7 @@ background-color: #333132;
     height: 74.8vh;
     width: 45vw;
     margin-left: 2vw;
-
 }
-
 
 .topcadre {
     display: flex;
@@ -291,7 +253,6 @@ background-color: #333132;
 
 }
 
-
 .titrepara {
     color: white;
     margin-top: 0px;
@@ -299,8 +260,8 @@ background-color: #333132;
     font-size: 30px;
     padding-left: 2vw;
     padding-top: 1.5vh;
-
 }
+
 /*
 .d2part {
     display: flex;
@@ -312,6 +273,7 @@ background-color: #333132;
     border-bottom: 0.1vh;
 }
 */
+
 .d2part {
     display: flex;
     flex-shrink: 0;
@@ -326,17 +288,13 @@ h3#nomPerso {
     color: white;
     font-family: "DIN";
     font-size: 20px;
-    
-
 }
-
 
 .Bprevious {
     order: 2;
     cursor: pointer;
     padding-right: 1vw;
     padding-left: 1vw;
-
 }
 
 .Bnext {
@@ -346,17 +304,13 @@ h3#nomPerso {
     padding-left: 1vw;
 }
 
-
-
-
-
-
-
-
-
 .commander {
     text-align: center;
-
 }
 
-
+#remonter {
+    position: fixed;
+    bottom: 10px;
+    right: -100px;
+    opacity: 0.8;
+}

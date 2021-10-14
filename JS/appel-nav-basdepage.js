@@ -1,7 +1,11 @@
 $(function(){
-    $("#nav").load("header.html");
+    $("#nav").load("header.html #haut");
 });
 
 $(function(){
-    $("#basdepage").load("basdepage.html");
+    $("#basdepage").load("header.html #test");
+});
+
+$(function(){
+    $("#return").load("header.html #remonter");
 });
