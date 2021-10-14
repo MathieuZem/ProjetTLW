@@ -159,6 +159,7 @@ body#body {
     margin-top: 5em;
 }
 
+
 .test {
     margin-top: 5em;
     background-color: #333132;
@@ -272,6 +273,7 @@ h3#nomPerso {
     color: white;
     font-family: "DIN";
     font-size: 20px;
+    margin-left: 5%;
 }
 
 .Bprevious {
@@ -279,6 +281,7 @@ h3#nomPerso {
     cursor: pointer;
     padding-right: 1vw;
     padding-left: 1vw;
+    margin-left: 66.3%;
 }
 
 .Bnext {
