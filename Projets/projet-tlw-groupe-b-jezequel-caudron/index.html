@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/stylesheet.css">
+    <title>Lunettes personnalisables</title>
+</head>
+
+<body>
+    <header class="pdg">
+        <img alt="logo" src="img/logo.png" width="100" height="100"/>
+        Voici un site de lunettes, please enjoy
+        <nav class="navbar">
+            <ul>
+
+                <li><a href="#Catalogue">Catalogue</a></li>
+                <li><a href="#Commande">Commande</a></li>
+                <li><a href="#About">A propos & contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="wrapper">
+        <template id="choixLunettes">
+
+            <div class={{forme}}>
+                <a href="html/personnalisation.html?id={{forme}}">
+                    <img alt={{forme}} src="img/{{forme}}.png" width="350" height="150"/>
+                </a>
+            </div>
+        </template>
+    </div>
+    <script src="javaS/index.js"></script>
+</body>
+
+</html>

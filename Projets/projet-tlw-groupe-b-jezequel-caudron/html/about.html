@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../style/stylesheet.css"> <!--C'est un chemin absolu, comment y remédier ??????-->
+    <script src="../javaS/index.js"></script>
+    <title>NousContacter</title>
+</head>
+
+<body>
+    <h1 class=about>Nous contacter</h1>
+    <p class=about>Jeunes et motivés nous avons decidé de créer 
+        un site de personnalisation de lunettes</p>
+    <p class=about> Notre adresse: Cathédrale de Fourvière, 69005 Lyon</p>
+    <p class=numero> <a href="skype:arthur?call">12222222 JEZEQUEL Arthur<br> </a> <a href="skype:raphael?call"> 13333333 CAUDRON Raphaël</a> </p>
+
+    <div id="map" class="about">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11133.845199123572!2d4.809324789766709!3d45.76194466568779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eba855934b53%3A0xa124b459bcf53d9d!2sFourvi%C3%A8re%2C%2069005%20Lyon!5e0!3m2!1sfr!2sfr!4v1633361991974!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+    <button onclick="toggle('mailing')">Nous Contacter</button>
+    <div id="mailing" class="about">
+        <form action="/action_page.php">
+            <label for="objet">Objet:</label><br>
+            <input type="text" id="objet" name="objet" value="Demande de renseignements"><br>
+            <label for="contenu">Corps:</label><br>
+            <textarea id="contenu" name="contenu" rows="5">Bonjour, je souhaiterais des renseignements sur</textarea> <br><br>
+            <input type="submit" value="Submit">
+        </form> 
+    </div>
+
+</body>
+
+
+
+</html>

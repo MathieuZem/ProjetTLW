@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang=fr>
+<head> 
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../style/stylesheet.css">
+    <title>Personnalisation page</title>
+</head>
+
+<body class="perso"  onload="remplir()"></body>
+    <header class="perso">
+        Voici un site de lunettes, please enjoy 
+    </header>
+
+    <div id="test">
+        Vous avez selectioné la monture ID <br> <br>
+        <div id="choix1">
+            CHOIX 1 <br> <br>
+            <div id="Etroit" onclick="choix1(Etroit)">Etroit</div>
+            <br>
+            <div id="Large"onclick="choix1(Large)">Large</div>
+        </div>
+
+        <br> <br>
+
+        <div id="choix2">
+            <!-- Modèle pour appliquer le template a personalisation 
+                <template id="Perso2">
+                <div id="{{Motif}}">
+                    {{Motif}}
+                </div>
+            </template> -->
+            CHOIX 2 <br> <br>
+            <div id=Léopard onclick="choix2(Léopard)">
+                Léopard
+            </div>
+            <br>
+            <div id=Rouge onclick="choix2(Rouge)">
+                Rouge
+            </div>
+        </div>
+
+        <br> <br>
+
+        <div id="display">
+            Voici le modèle
+        </div>
+        <br> <br> <br> <br>
+        <button id="commande"> COMMANDEZ </button>
+    </div>
+    <script src="../javaS/index.js"></script>
+</body>
+
+</html>

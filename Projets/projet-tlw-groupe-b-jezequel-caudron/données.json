@@ -1,0 +1,237 @@
+
+{   
+    "RondeEtroiteVert": {
+        "Forme":"Ronde",
+        "Branches":"Etroite",
+        "Motifs":"Vert",
+        "prix":"89"
+    },
+
+    "RondeEtroiteRouge": {
+        "Forme":"Ronde",
+        "Branches":"Etroite",
+        "Motifs":"Rouge",
+        "prix":"89"
+    },
+
+    "RondeEtroiteNoire": {
+        "Forme":"Ronde",
+        "Branches":"Etroite",
+        "Motifs":"Noire",
+        "prix":"80"
+    },
+
+    "RondeEtroiteLéopard": {
+        "Forme":"Ronde",
+        "Branches":"Etroite",
+        "Motifs":"Léopard",
+        "prix":"93"
+    },
+
+    "RondeLargeVert": {
+        "Forme":"Ronde",
+        "Branches":"Large",
+        "Motifs":"Vert",
+        "prix":"99"
+    },
+
+    "RondeLargeRouge": {
+        "Forme":"Ronde",
+        "Branches":"Large",
+        "Motifs":"Rouge",
+        "prix":"99"
+    },
+
+    "RondeLargeNoire": {
+        "Forme":"Ronde",
+        "Branches":"Large",
+        "Motifs":"Noire",
+        "prix":"80"
+    },
+
+    "RondeLargeLéopard": {
+        "Forme":"Ronde",
+        "Branches":"Large",
+        "Motifs":"Léopard",
+        "prix":"110"
+    },
+
+
+
+
+
+    "OvaleEtroiteVert":{
+        "Forme":"Ovale",
+        "Branches":"Etroite",
+        "Motifs":"Vert",
+        "prix":"89"
+    },
+
+    "OvaleEtroiteRouge": {
+        "Forme":"Ovale",
+        "Branches":"Etroite",
+        "Motifs":"Rouge",
+        "prix":"89"
+    },
+
+    "OvaleEtroiteNoire": {
+        "Forme":"Ovale",
+        "Branches":"Etroite",
+        "Motifs":"Noire",
+        "prix":"80"
+    },
+
+    "OvaleEtroiteLéopard": {
+        "Forme":"Ovale",
+        "Branches":"Etroite",
+        "Motifs":"Léopard",
+        "prix":"93"
+    },
+
+    "OvaleLargeVert": {
+        "Forme":"Ovale",
+        "Branches":"Large",
+        "Motifs":"Vert",
+        "prix":"99"
+    },
+
+    "OvaleLargeRouge": {
+        "Forme":"Ovale",
+        "Branches":"Large",
+        "Motifs":"Rouge",
+        "prix":"99"
+    },
+
+    "OvaleLargeNoire": {
+        "Forme":"Ovale",
+        "Branches":"Large",
+        "Motifs":"Noire",
+        "prix":"80"
+    },
+
+    "OvaleLargeLéopard": {
+        "Forme":"Ovale",
+        "Branches":"Large",
+        "Motifs":"Léopard",
+        "prix":"110"
+    },
+
+
+
+
+    "HexagonaleEtroiteVert": {
+        "Forme":"Hexagonale",
+        "Branches":"Etroite",
+        "Motifs":"Vert",
+        "prix":"89"
+    },
+
+    "HexagonaleEtroiteRouge": {
+        "Forme":"Hexagonale",
+        "Branches":"Etroite",
+        "Motifs":"Rouge",
+        "prix":"89"
+    },
+
+    "HexagonaleEtroiteNoire": {
+        "Forme":"Hexagonale",
+        "Branches":"Etroite",
+        "Motifs":"Noire",
+        "prix":"80"
+    },
+
+    "HexagonaleEtroiteLéopard": {
+        "Forme":"Hexagonale",
+        "Branches":"Etroite",
+        "Motifs":"Léopard",
+        "prix":"93"
+    },
+
+    "HexagonaleLargeVert": {
+        "Forme":"Hexagonale",
+        "Branches":"Large",
+        "Motifs":"Vert",
+        "prix":"99"
+    },
+
+    "HexagonaleLargeRouge": {
+        "Forme":"Hexagonale",
+        "Branches":"Large",
+        "Motifs":"Rouge",
+        "prix":"99"
+    },
+
+    "HexagonaleLargeNoire": {
+        "Forme":"Hexagonale",
+        "Branches":"Large",
+        "Motifs":"Noire",
+        "prix":"80"
+    },
+
+    "HexagonaleLargeLéopard": {
+        "Forme":"Hexagonale",
+        "Branches":"Large",
+        "Motifs":"Léopard",
+        "prix":"110"
+    },
+
+
+
+
+
+    "CarréEtroiteVert": {
+        "Forme":"Carré",
+        "Branches":"Etroite",
+        "Motifs":"Vert",
+        "prix":"89"
+    },
+
+    "CarréEtroiteRouge": {
+        "Forme":"Carré",
+        "Branches":"Etroite",
+        "Motifs":"Rouge",
+        "prix":"89"
+    },
+
+    "CarréEtroiteNoire": {
+        "Forme":"Carré",
+        "Branches":"Etroite",
+        "Motifs":"Noire",
+        "prix":"80"
+    },
+
+    "CarréEtroiteLéopard": {
+        "Forme":"Carré",
+        "Branches":"Etroite",
+        "Motifs":"Léopard",
+        "prix":"93"
+    },
+
+    "CarréLargeVert": {
+        "Forme":"Carré",
+        "Branches":"Large",
+        "Motifs":"Vert",
+        "prix":"99"
+    },
+
+    "CarréLargeRouge": {
+        "Forme":"Carré",
+        "Branches":"Large",
+        "Motifs":"Rouge",
+        "prix":"99"
+    },
+
+    "CarréLargeNoire": {
+        "Forme":"Carré",
+        "Branches":"Large",
+        "Motifs":"Noire",
+        "prix":"80"
+    },
+
+    "CarréLargeLéopard": {
+        "Forme":"Carré",
+        "Branches":"Large",
+        "Motifs":"Léopard",
+        "prix":"110"
+    }
+}

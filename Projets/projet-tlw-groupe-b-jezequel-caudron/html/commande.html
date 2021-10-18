@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../style/stylesheet.css">
+    <script src="../javaS/index.js"></script>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <title>Votre Panier</title>
+</head>
+
+<body>
+    <form class=commande>
+        <label for="nom">Nom</label><br>
+        <input type="text" id="nom" name="nom" required><br><br>
+        <label for="prénom">Prénom</label><br>
+        <input type="text" id="prénom" name="prénom" required><br><br>
+        <label for="mail">Adresse Mail</label><br>
+        <input type="text" id="mail" name="mail" required><br><br>
+        <label for="phone">Téléphone</label><br>
+        <input type="text" id="phone" name="phone" required><br><br>
+        <label for="adresse">Adresse</label><br>
+        <input type="text" id="adresse" name="adresse" required><br><br>
+        <input type="submit">          
+    </form>  
+
+    <div id=container>
+        <div id=aside>
+            <model-viewer src="../3DModel/Carre.glb" alt="Lunette" auto-rotate camera-controls ar ios-src="assets/HTC_Vive_Headset.gltf"></model-viewer>
+        </div>
+    </div>
+    
+</body>
+
+</html>

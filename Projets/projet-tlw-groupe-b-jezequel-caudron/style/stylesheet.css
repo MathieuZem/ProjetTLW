@@ -1,0 +1,189 @@
+header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position:absolute;
+    top: 0%;
+    left: 0%;
+    width: 100vw;
+    height: 12vh;
+    background-color:#715d07
+;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    width: 10vw;
+    background-color:khaki;
+    text-align: center;
+    border-style: double;
+    border-color: violet;
+    font-size: 1.2vw;
+}
+
+h1.about {
+    color:whitesmoke;
+    background:grey;
+    font-family:'Times New Roman', Times, serif;
+    font-size:60px;
+    width:100vw;
+    height:100wh;
+    margin:auto;
+    text-align: center;
+}
+
+p.about {
+    color:goldenrod;
+    font-family:monospace;
+    font-size:18px;
+    font-style: italic;
+    width:auto;
+    margin:auto;
+}
+
+button{
+    color: goldenrod;
+    background-color:whitesmoke;
+    cursor: pointer;
+    border-radius: 10%;
+    border-color:grey;
+    padding: 9px;
+    position: relative;
+    left:50vw;
+    font-style: italic;
+}
+
+#map {
+    position: relative;
+}
+
+body {
+    clear:auto;
+    margin-top:0;
+    background-repeat: repeat;
+    width:100vw;
+    height:100vh;
+}
+
+.wrapper {
+    margin-top:150px;
+    background-position: center;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.Ronde {
+    text-align: end;
+    vertical-align: bottom;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.Ovale {
+    text-align: start;
+    vertical-align: bottom;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.Carré {
+    text-align: end;
+    vertical-align: top;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.Hexagonale {
+    text-align: start;
+    vertical-align: top;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+
+
+
+ul {
+    display: table;
+    list-style-type: none;
+    margin: 0;
+    padding: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+  }
+
+.logo {
+      scale: 0.5;
+      z-index: 0;
+      width: 10vw;
+      height: auto;
+      text-align: right;
+      margin:0;
+      padding: 0;
+      position: absolute;
+      left: 0%;
+      right:100%;
+      top: 20%;
+      bottom: 100%;
+  }
+
+form {
+    color: brown;
+    position: absolute;
+    top: 50%;
+}
+
+#mailing {
+    display: none;
+}
+
+#contenu {
+    width: 80vw;
+}
+
+#aside {
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    top: calc(50% - 250px);
+    right: 7%;
+    border-style: double;
+    border-color: goldenrod;
+}
+
+/* This styles the 3D object inserted in the aside container */
+#aside model-viewer {
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: none;
+}
+
+#test {
+    color: black;
+    position: relative;
+    top: 20vh;
+}
+
+#choix1 {
+    color: blue;
+}
+
+#choix2 {
+    color:chartreuse;
+    visibility: hidden;
+}
+
+#commande {
+    visibility: hidden;
+}
