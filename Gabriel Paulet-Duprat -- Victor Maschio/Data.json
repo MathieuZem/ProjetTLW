@@ -1,0 +1,34 @@
+[
+    {
+        "id": "Tshirt1",
+        "img": "RandomTshirt.jpg",
+        "nom": "Tshirt1",
+        "colors": ["red","black","yellow"],
+        "prix": "€24.99",
+        "tags": ["Animals","Space"]
+    },
+    {
+        "id": "Tshirt2",
+        "img": "RandomTshirt.jpg",
+        "nom": "Tshirt2",
+        "colors": ["green","black","blue"],
+        "prix": "€24.99",
+        "tags": ["Animals","Space"]
+    },
+    {   
+        "id": "Tshirt3",
+        "img": "RandomTshirt.jpg",
+        "nom": "Tshirt3",
+        "colors": ["red","yellow","blue"],
+        "prix": "€24.99",
+        "tags": ["Animals","Space"]
+    },
+    {   
+        "id": "Tshirt4",
+        "img": "RandomTshirt.jpg",
+        "nom": "Tshirt4",
+        "colors": ["red","black","purple"],
+        "prix": "€24.99",
+        "tags": ["Animals","Space"]
+    }
+]
