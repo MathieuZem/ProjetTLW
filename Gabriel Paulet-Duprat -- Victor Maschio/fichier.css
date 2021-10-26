@@ -24,7 +24,7 @@ nav {
 
 nav img {
     padding: 0.5em;
-    width: 2em;
+    width: 1.5em;
     height: 2em;
 }
 
@@ -280,16 +280,78 @@ p.prod {
     position: sticky;
 }
 
-.btn {
+div.filtres button {
+    padding: 1em;
+    border: 0vw;
+}
+div.filtres a{
+    text-align: center;
+    color: rgb(27, 207, 7);
     padding: 1em;
     border: 0vw;
 }
 
-.btn:hover {
-    transition: .3s ease;
-    background-color: rgb(27, 207, 7);
+div.filtres div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 0vh;
+    gap: 2vh;
+    justify-content: center;
+
 }
 
+div.filtres button:hover {
+    transition: .3s ease;
+    background-color: rgb(27, 207, 7);
+    cursor: pointer;
+}
+div.filtres button.active{
+    color: rgb(27, 207, 7);
+    background-color: rgb(35, 37, 37);
+    border: 2px solid rgb(27, 207, 7);
+    pointer-events: none;
+}
+/*rond filtres*/
+div.filtres div div {
+    border: 3px solid grey;
+    border-radius: 50%;
+    height: 3vh;
+    width: 3vh;
+    opacity: 0.8;
+}
+div.filtres div div:hover {
+    opacity: 1;
+}
+div.filtres div div.active {
+    border: 3px solid white;
+    opacity: 1;
+}
+div.filtres div#AllColor {
+    background-image: linear-gradient(red,orange,yellow,green,blue,indigo,violet);
+  }
+div.filtres div#red {
+    background-color: red;
+}
+div.filtres div#blue {
+    background-color: blue;
+}
+
+div.filtres div#black {
+    background-color: black;
+}
+
+div.filtres div#yellow {
+    background-color: yellow;
+}
+
+div.filtres div#purple {
+    background-color: purple;
+}
+
+div.filtres div#green {
+    background-color: green;
+}
 
 /*Partie Gabriel*/
 
@@ -337,6 +399,16 @@ p.prod {
     opacity: 0.9;
 }
 
+.personnalisation {
+    opacity: 1;
+    position: relative;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    left: 10vw;
+    bottom: 19vh;
+    display: flex;
+}
+
 .rond {
     /*défini les ronds merci captin obvious*/
     opacity: 0;
@@ -345,52 +417,45 @@ p.prod {
     width: 1vw;
     background-color: rgb(128, 128, 128);
     margin: 1vw;
+    border: 3px solid gray;
 }
-
-.personnalisation {
-    opacity: 1;
-    position: relative;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    left: 10vw;
-    bottom: 19vh; /*Hauteur des ronds de couleur*/
-    display: flex;
-}
-
 
 /* ------------------ Fin de l'affichage des produits */
 
 
 /*------------------- Affichage de la personnalisation*/
+main.MainPersonnalisation {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    margin-top: 10vh;
+    font-size: 1vw;
+}
 
 aside.sidebar {
-    width: 15vw;
+    width: 20vw;
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-color: rgb(35, 37, 37);
+    height: 100vh;
+    overflow-x:hidden;
+    overflow-y: auto;
 }
 
-img.aperçu {
+aside.sidebar a img.apercu {
+    margin: 5vh 0vw;
+    padding: 2vh 5vh;
     border-radius: 40%;
-    margin: 3vw 4vw;
     width: 10vh;
 }
-
-main section {
-    margin: 0vw 5vw;
+aside.sidebar a.active{
+    background-color: rgb(27, 207, 7);
 }
 
 .ImageProduit {
     width: 60vh;
     margin: 0vh 3vw;
-}
-
-main.MainPersonnalisation {
-    display: flex;
-    justify-content: start;
-    align-items: flex-start;
-    margin: 5vh 5vw;
-    font-size: 1vw;
 }
 
 main.MainPersonnalisation section p {
@@ -405,34 +470,43 @@ main.MainPersonnalisation section p {
     flex-direction: column;
 }
 
-button.taille {
-    /*Affichage d'un button de taille*/
-    position: relative;
-    border-color: black;
-    border: 5vh 5vw solid black;
-    background-color: rgb(255, 255, 255);
-    color: rgb(6, 124, 6);
-    margin: 3vh 2vw;
-    padding: 1vh 1vw;
-    text-align: center;
-    width: 10vw;
-    height: 7vh;
-}
-
-button.taille p {
-    margin: 0;
-    font-size: 2vw;
-}
-
-button.AjoutPanier {
-    margin: 3vh 2vw;
-    text-align: center;
-}
-
-button.Tailles {
+div.Tailles {
     /*Conteuneur des button de taille*/
     display: flex;
     justify-content: start;
+    flex-wrap: wrap;
+}
+div.Tailles button {
+    /*Affichage d'un button de taille*/
+    border: 5vh 5vw solid rgb(35, 37, 37);
+    background-color: rgb(255, 255, 255);
+    color: rgb(27, 207, 7);
+    margin: 3vh 2vw;
+    width: 10vw;
+    height: 7vh;
+    font-size: 2vw;
+}
+div.Tailles button.active{
+    background-color: rgb(35, 37, 37);
+}
+
+div.Quantité {
+    /*Conteuneur des button de Quantité*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0vh 2vw;
+}
+div.Quantité button {
+    padding: 0.5em 2em;
+}
+div.Quantité div#number {
+    padding: 0.5em 8em;
+}
+button.AjoutPanier {
+    margin: 3vh 2vw;
+    padding: 0.5em;
+    text-align: center;
 }
 
 .InfoProduit {
@@ -446,9 +520,7 @@ button.Tailles {
     font-size: 1vw;
 }
 
-button.Quantité {
-    margin: 3vh 2vw;
-}
+
 
 
 /* -------------Fin affichage Personnalisation */
