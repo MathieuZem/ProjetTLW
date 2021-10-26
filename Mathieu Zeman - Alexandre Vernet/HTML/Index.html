@@ -1,81 +1,69 @@
 <!DOCTYPE html>
-    <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Accueil</title>
-        <link rel="stylesheet" href="../CSS/styles_index.css">
-        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
-        <script src="../JS/appels.js"></script>
-        <script src="../JS/bouton-revenir-en-haut.js"></script>
-    </head>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="../CSS/styles_index.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+    <script src="../JS/JS.js"></script>
+
+</head>
 
 
-    <body id=body>
+<body id=body>
 
-        <header>
-            <div class="bgimg2">
-                <h1 class="titre2">Door-Itos</h1>
+    <header>
+        <div id="topBG">
+            <h1 id="tDooritos">Door-Itos</h1>
 
+        </div>
+        <div id="nav"></div>
+
+    </header>
+
+    <div id="BarreDeFiltre">
+        <h2 id="filtre">Filtres :</h2>
+        <nav>
+            <select class="lesfiltres" name="Matériaux">
+                <option value="Tout">Tout</option>
+                <option value="Bois">Bois</option>
+                <option value="Métal">Metal</option>
+                <option value="Polymère">polymère</option>
+            </select>
+
+            <select class="lesfiltres" name="Type">
+                <option value="Tout">Tout</option>
+                <option value="Classique">Classique</option>
+                <option value="Blindé">Blindé</option>
+                <option value="Door-Itos">Door-Itos</option>
+                <option value="Coulissante">Coulissante</option>
+                <option value="Coupe-Feu">Coupe-Feu</option>
+                <option value="Porte fenêtre">Porte fenêtre</option>
+                <option value="Rouleau">Rouleau</option>
+            </select>
+
+            <input class="lesfiltres" type="checkbox" id="Premium" name="Premium">
+            <label id="PremiumLabel" for="Premium">Premium</label>
+        </nav>
+    </div>
+
+    <div id="SectionGrid">
+        <template id="gamme">
+            <div>
+                <a href="../HTML/Personnalisation.html?id={{IndexPagePerso}}">
+                    <img class="ImgProduit" src={{LienIMG}} alt={{alt}} />
+                </a>
+                <p id="Prix">{{Prix}}</p>
             </div>
+        </template>
+    </div>
 
-            <!-- <img id="bgimg" src="../image/autre/Banniere.jpg" alt="Bannière"/> -->
-            <div id="nav"></div>
-            
-        </header>
+    <div id="return"></div>
+    <footer id="basdepage"></footer>
 
-        <div class="BarreDeFiltre">
-            <p class="filtre">Filtres :</p>
-            <nav>
-                <select class="lesfiltres" name="Matériaux">
-                    <option value="Tout">Tout</option>
-                    <option value="Bois">Bois</option>
-                    <option value="Métal">Metal</option>
-                    <option value="Polymère">polymère</option>
-                </select>
-                    
-                <select class="lesfiltres" name="Type">
-                    <option value="Tout">Tout</option>
-                    <option value="Classique">Classique</option>
-                    <option value="Blindé">Blindé</option>
-                    <option value="Door-Itos">Door-Itos</option>
-                    <option value="Coulissante">Coulissante</option>
-                    <option value="Coupe-Feu">Coupe-Feu</option>
-                    <option value="Porte fenêtre">Porte fenêtre</option>
-                    <option value="Rouleau">Rouleau</option>
-                </select>
+</body>
 
-                <input class="lesfiltres" type="checkbox" id="Premium" name="Premium" >
-                <label class="filtre" for="Premium">Premium</label>
-            </nav>
-        </div>
-
-        <div class="SectionGrid">
-            <template id="gamme">
-                <div>
-                    <a href={{LienPagePerso}}> 
-                        <img class="divIMG" src={{LienIMG}} alt={{alt}}/>
-                    </a>
-                    <p class="Prix">{{Prix}}</p>
-                </div>
-            </template>
-        </div>
-
-
-        </div>
-
-
-
-
-
-        <div id="return"></div>
-        <footer id="basdepage"></footer>
-
-        <footer class="footer" id="basdepage"></footer>
-        <script src="../JS/Template-Gamme.js"></script>
-        <script src="../JS/appel-nav-basdepage.js"></script>
-
-    </body>
-
-    </html>
+</html>

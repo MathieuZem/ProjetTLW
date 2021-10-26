@@ -4,14 +4,6 @@ body {
 margin: 0%;
 }
 
-/*
-<style type="text/css"> 
-a:link 
-{ 
-text-decoration:none; 
-} 
-</style> */
-
 @viewport {
     width: device-width; /* largeur du viewport */
     zoom: 1; /* zoom initial à 1.0 (et clin d'oeil aux fans d'IE6/7) */
@@ -23,30 +15,23 @@ text-decoration:none;
     src: url("../fonts/DIN.ttf") format("TrueType");
 }
 
-.BarreTopPage {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-    align-items: center;
+/*HAUT DE LA PAGE (HEADER)*/
+/*paramètre de la page index global*/
+body#body {
     background-color: #333132;
 }
 
-.box {
-    height :1vh ;
-    width: 100%;
-    background : #F57E00;
-    margin-bottom: 0%;
-    }
-
-
-.bgimg2 {
+/*Bannière que sur l'index*/
+div#topBG {
     background-image: url("../image/autre/Banniere.jpg");
     background-size: cover;
     position: relative;
+    width: 100%;
     height: 300px;
 }
 
-.titre2 {
+/*Nom du Site sur l'image de bannière*/
+h1#tDooritos {
     background-color: black;
     background: rgba(0, 0, 0, 0.8);
     color: white;
@@ -59,29 +44,34 @@ text-decoration:none;
     margin-left: 27%;
 }
 
+/*Barre du Site*/
+.BarreTopPage {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    background-color: #333132;
+}
+
+/*Logo*/
 .logo {  
     width: 50%;
 }
 
-.titre {
+/*Titre dans la barre*/
+/*.titre {
     margin: 0%;
-
     color: white;
     font-family: "DIN";
     font-size: 350%;
-
     background-color: #333132;
     width: 100%;
-
     text-align: center;
     padding-left: 20px;
-} 
+}*/
 
-body#body {
-    background-color: #333132;
-}
-
-.navbar {
+/*Barre de navigation*/
+.NavBar {
     background-color: #333132;
     display: flex;
     justify-content: stretch;
@@ -89,7 +79,7 @@ body#body {
     margin-left: 25%;
 }
 
-.textNB {
+.textNavBar {
     font-family: "DIN";
     color: white;
     text-decoration:none; 
@@ -98,36 +88,90 @@ body#body {
     padding-right: 25%;
 }
 
-.textNB:hover{
+.textNavBar:hover {
     color: #F57E00;
     text-decoration-line: overline #555555;
     background-color: #555555;
 }
 
-.filtre {
-    color: black;
-    font-size: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.lesfiltres {
-    font-size: 20px;
-
+/*Trait Orange*/
+.box {
+    height :1vh ;
+    width: 100%;
+    background : #F57E00;
+    margin-bottom: 0%;
 }
 
 
-
-.BarreDeFiltre {
+/*CONTENUE DE LA PAGE INDEX (BODY)*/
+/*Barre de filtre*/
+div#BarreDeFiltre {
     background-color: #CCCCCC;
     padding: 1%;
 }
 
+h2#filtre {
+    color: black;
+    font-size: 30px;
+    font-family: "DIN";
+    text-transform: uppercase;
+}
 
+/*Paramètre de Filtre*/
+.lesfiltres {
+    font-size: 20px;
+    font-family: "DIN";
+}
+
+label#Premium {
+    color: black;
+    font-size: 30px;
+    font-family: "DIN";
+}
+
+ /*Grille de produit*/
+div#SectionGrid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    margin-top: 5em;
+}
+
+.ImgProduit {
+    margin-left: 33.33%;
+    margin-right: 33.33%;
+    height: 60%;
+}
+
+#Prix {
+    color: white;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-left: 50%;
+    font-family: "DIN";
+    font-size: 40px;€
+}
+
+
+/*BAS DE LA PAGE (FOOTER)*/
 #basdepage{
     background-color: #333132;
 }
 
-.textlienF{
+h1#TitreFooter {
+    margin: 0%;
+    color: white;
+    font-family: "DIN";
+    width: 100%;
+    font-size: 40px;
+}
+
+.textF {
+    color: white;€
+    font-size: 22px;
+}
+
+.lienF{
     font-family: "DIN";
     color: white;
     text-decoration:none;
@@ -135,107 +179,49 @@ body#body {
     font-size: 22px;
 }
 
-.textlienF:hover{
+.lienF:hover{
     color: #F57E00;
 }
 
-.textBasicF {
-    color: white;
-    font-size: 22px;
-}
 
-.TitreFooter {
-    margin: 0%;
-
-    color: white;
-    font-family: "DIN";
-    width: 100%;
-}
-
-.SectionGrid{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
-    margin-top: 5em;
-}
-
-
-.test {
-    margin-top: 5em;
-    background-color: #333132;
-}
-
-.Prix {
-    color: white;
-    margin-top: 5%;
-    margin-bottom: 10%;
-    margin-left: 55%;
-    font-family: "DIN";
-    font-size: 25px;
-}
-
-.divIMG {
-    margin-left: 33.33%;
-    margin-right: 33.33%;
-    height: 50%;
-}
-
-
-
-
-
-
-
-
-/*
-.bg-image--1 { ..image/autre/Banniere.jpg" alt="bannière"; }
-
-<img src="image/Banniere.jpg" alt="bannière" />
-
-<img src="image/Banniere.jpg" alt="bannière" /> 
-*/
-
-.titrePerso {
+/*PAGE DE PERSONNALISATION*/
+h1#titrePerso {
     color: black;
     font-family: "DIN";
     font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
 }
-
-.MenuPerso {
+ /*Fond Gris*/
+section#MenuPerso {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     background-color: #CCCCCC;
     height: 80vh;
-    width: 100vw;
+    width: 100%;
 }
 
-.Cadreimage {
+/*Cadre (prévisualisation/personnalisation)*/
+.Cadre {
     background-color: #222222;
     max-width: 74.8vh;
     max-height: 45vw;
     height: 74.8vh;
     width: 45vw;
     margin-right: 2vw;
+    border-radius: 30px;
 }
 
-.CadrePersonnalisation {
-    background-color: #333333;
-    max-width: 74.8vh;
-    max-height: 45vw;
-    height: 74.8vh;
-    width: 45vw;
-    margin-left: 2vw;
-}
-
+/*barre du haut*/
 .topcadre {
     display: flex;
     flex-direction: row;
-    align-items: center;
     background-color: #555555;
-
-
+    
+    border-start-start-radius: 30px;
+    border-start-end-radius: 30px;
 }
 
 .titrepara {
@@ -245,30 +231,19 @@ body#body {
     font-size: 30px;
     padding-left: 2vw;
     padding-top: 1.5vh;
+    text-transform: uppercase;
 }
 
-/*
-.d2part {
+/*Barre n°2*/
+div#part2top {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    background-color: #AAAAAA;
-    height: 4.5vh;
-    border-bottom: 0.1vh;
-}
-*/
-
-.d2part {
-    display: flex;
     flex-shrink: 0;
-    flex-flow: row nowrap;
     background-color: #AAAAAA;
     border: 0.1vh solid rgb(234, 234, 234);
 }
 
 h3#nomPerso {
-    order: 1;
     justify-self: start; 
     color: white;
     font-family: "DIN";
@@ -276,28 +251,62 @@ h3#nomPerso {
     margin-left: 5%;
 }
 
-.Bprevious {
-    order: 2;
+div#button {
+    float: right;
+}
+
+button#Bprevious {
     cursor: pointer;
     padding-right: 1vw;
     padding-left: 1vw;
-    margin-left: 66.3%;
 }
 
-.Bnext {
+button#Bnext {
     cursor: pointer;
-    order: 3;
     padding-right: 1vw;
     padding-left: 1vw;
+    
 }
 
-.commander {
-    text-align: center;
-}
-
-#remonter {
+/*Bouton remonter en haut de la page*/
+#remonter {€
     position: fixed;
     bottom: 10px;
     right: -100px;
     opacity: 0.9;
 }
+
+canvas#canvas {
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 800px;
+    height: 1400px;
+
+}
+
+#PrixPerso {
+    color: white;
+    font-family: "DIN";
+    font-size: 40px;€
+}
+
+
+
+#boutoncommande {
+    text-align: center; 
+}
+
+#popup {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    display: none;
+}
+
+#form {
+    max-width: 90%;
+    padding: 20px;
+    background-color: rgb(255, 102, 0);
+    }
+
